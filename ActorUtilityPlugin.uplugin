@@ -1,0 +1,21 @@
+{
+	"PluginFileVersion" : 3,
+
+	"FriendlyName" : "Actor Utility Blueprint Library",
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"CreatedBy" : "Shohei",
+	"CreatedByURL" : "",
+	"EngineVersion" : 1579795, 
+	"Description" : "Exposes many actor utility methods that are not exposed to blueprints by default.",
+	"Category" : "Utility",
+	 
+	"Modules" :
+	[	
+		{
+			"Name" : "ActorUtilityLibrary",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreDefault"
+		}
+	]
+}
