@@ -15,6 +15,7 @@ UActorComponent* UActorUtilityFunctionLibrary::AttachComponentOfClass(UObject* W
 	}
 
 	Component->RegisterComponent();
+	Component->OnComponentCreated();
 
 	USceneComponent* SceneComponent = Cast<USceneComponent>(Component);
 	if (SceneComponent)
